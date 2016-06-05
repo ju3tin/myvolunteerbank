@@ -1,0 +1,87 @@
+﻿{
+  "name": "countries",
+  "children": [
+    {
+      "name": "UK",
+      "children": [
+        {
+          "name": "London",
+          "children": [
+            {
+              "name": "CityBranches",
+              "size": 300
+            },
+            {
+              "name": "RBSLiverpoolStreet",
+              "size": 381
+            },
+            {
+              "name": "EastLondonBranches",
+              "size": 671
+            },
+            {
+              "name": "NWHeadOffice",
+              "size": 743
+            }
+          ]
+        },
+        {
+          "name": "Edinburgh",
+          "children": [
+            {
+              "name": "RBS",
+              "size": 353
+            },
+            {
+              "name": "RBCCampus",
+              "size": 531
+            },
+            {
+              "name": "EastLothianBranches",
+              "size": 840
+            },
+            {
+              "name": "RBSBranches",
+              "size": 594
+            }
+          ]
+        },
+        {
+          "name": "Manchester",
+          "children": [
+            {
+              "name": "NWBranches",
+              "size": 707
+            }
+          ]
+        },
+        {
+          "name": "Newcastle",
+          "children": [
+            {
+              "name": "NWBranches",
+              "size": 170
+            }
+          ]
+        },
+        {
+          "name": "Sunderland",
+          "children": [
+            {
+              "name": "NWBranches",
+              "size": 721
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "children": [
+        {
+          "name": "Dublin", "size" :  630
+        }
+      ]
+    }
+  ]
+}

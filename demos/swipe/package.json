@@ -1,0 +1,47 @@
+{
+  "name": "swing",
+  "description": "A swipeable cards interface. The swipe-left/swipe-right for yes/no input. As seen in apps like Jelly and Tinder.",
+  "keywords": [
+    "swipe",
+    "cards",
+    "swipeable"
+  ],
+  "version": "3.0.3",
+  "main": "./dist/index.js",
+  "author": {
+    "name": "Gajus Kuizinas",
+    "email": "gajus@gajus.com",
+    "url": "http://gajus.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gajus/swing"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "jsdom": "^6.3.0",
+    "jsonfile": "^2.2.1",
+    "pragmatist": "^3.0.21",
+    "sinon": "^1.16.1",
+    "webpack": "^1.12.1"
+  },
+  "dependencies": {
+    "hammerjs": "^2.0.4",
+    "lodash": "^4.6.1",
+    "raf": "^3.1.0",
+    "rebound": "^0.0.13",
+    "sister": "^3.0.0",
+    "vendor-prefix": "^0.1.0"
+  },
+  "scripts": {
+    "pragmatist": "pragmatist --es5",
+    "lint": "npm run pragmatist lint",
+    "test": "npm run pragmatist test",
+    "build": "npm run pragmatist build",
+    "watch": "npm run pragmatist watch",
+    "watch-lint": "npm run pragmatist watch-lint",
+    "watch-test": "npm run pragmatist watch-test",
+    "watch-build": "npm run pragmatist watch-build"
+  }
+}
