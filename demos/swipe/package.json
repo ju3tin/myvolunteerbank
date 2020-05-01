@@ -32,7 +32,8 @@
     "raf": "^3.1.0",
     "rebound": "^0.0.13",
     "sister": "^3.0.0",
-    "vendor-prefix": "^0.1.0"
+    "vendor-prefix": "^0.1.0",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "pragmatist": "pragmatist --es5",
@@ -42,6 +43,9 @@
     "watch": "npm run pragmatist watch",
     "watch-lint": "npm run pragmatist watch-lint",
     "watch-test": "npm run pragmatist watch-test",
-    "watch-build": "npm run pragmatist watch-build"
-  }
+    "watch-build": "npm run pragmatist watch-build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
